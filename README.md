@@ -20,6 +20,14 @@ A Quake/CryEngine-style console for Godot. Requires a Godot 3.0-beta1 or newer
 - Example #1: Unittest-like file with variety amount of examples of how to use console and how to _not_ use (see ConsoleUnitTest.gd).
 - Example #2: PerfMon simple script as example of "production-like usage"
 
+## A few more screenshots
+
+![Main Screen with Unit Test enabled](https://i.imgur.com/5SxGKaX.png)
+
+![Main Screen with Cvarlist & cmdlist commands used](https://i.imgur.com/CneOiH8.png)
+
+![Main Screen with some errors examples](https://i.imgur.com/vVe4sOW.png)
+
 ## Some background on my implementation
 
 Contains some parts of code from another one good enhanced implementation of original Calinou's console - https://github.com/DmitriySalnikov/godot-console  
