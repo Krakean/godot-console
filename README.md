@@ -8,13 +8,13 @@ A Quake/CryEngine-style console for Godot. Requires a Godot 3.0-beta1 or newer
 
 - Toggleable console with fast fade animation (use <kbd>~</kbd> to toggle)
 - Commands (CComs) with limitless amount of arguments (no strict type checking, though)
-- Variables (CVars), with strict type checking and ability to specify range of min/max and allowed values
+- Variables (CVars), with strict type checking (str/int/float/bool), ability to specify range of min/max and/or allowed values
 - Rich text format (colors, bold, italic, and more) using a RichTextLabel, with scrolling support
 - Full-featured tab completion, with command history
 - Ability to declare commands/cvars in any file (an issue of original console implementation)
 - Simple logging (normal, warning, error) with timing. Could be useful when use console also for logging purposes
 - Very verbose in context of ccoms/cvars registration and usage. If you made a mistake, console will tell you about it
-- Warm color scheme by default, should be nice for eyes :-)
+- Warm color scheme by default, should be comfrotable for eyes :-)
 - Semi-transparent console by default.
 - Always on top of others elements (an issue of original console implementation).
 - Example #1: Unittest-like file with variety amount of examples of how to use console and how to _not_ use (see ConsoleUnitTest.gd).
