@@ -1,27 +1,27 @@
 # Godot Console
 
-A **work-in-progress** Quake-style console for Godot. Requires a recent Godot 2.1-series build.
+A Quake/CryEngine-style console for Godot. Requires a Godot 3.0-beta1 or newer
 
-![Preview](https://lut.im/z7lquRdc5n/IRrUJuiJdUUuWfuO.png)
+![Main Screen](https://github.com/Krakean/godot-console/blob/master/Screenshot.png)
 
 ## Features
 
-- Commands
-- Cvars
+- Commands (CComs)
+- Variables (CVars), with strict types registration and ability to specify range of min/max and allowed values
 - Scrolling
-- Toggleable console with fade animation (use <kbd>Shift+Escape</kbd>, <kbd>~</kbd> or <kbd>²</kbd> to toggle)
-- Easily extensible with new commands
+- Toggleable console with fast fade animation (use <kbd>~</kbd> to toggle)
+- Easily extensible with new commands & cvars
 - Rich text format (colors, bold, italic, and more) using a RichTextLabel
-- Basic tab completion
-
-## TODO
-
-- Enhance tab completion
-- Sanitize int/float cvar values (based on existing min/max value data)
-- Navigating command history in the LineEdit
+- Full-featured tab completion, with command history
+- Ability to declare commands/cvars in any file
+- Simple logging with timing
+- Very verbose in context of ccoms/cvars registration and usage. If you made a mistake, console will tell you about it
+- Warm color scheme by default
+- Example #1: Unittest-like file with variety amount of examples of how to use console and how to _not_ use (see ConsoleUnitTest.gd).
+- Example #2: PerfMon simple script as example of "clean usage"
 
 ## License
 
-Copyright (c) 2016 Hugo Locurcio and contributors
+Copyright (c) 2017 Dmitry Koteroff and contributors
 
 Licensed under the MIT license, see `LICENSE.md` for more information.
