@@ -17,6 +17,8 @@ A Quake/CryEngine-style console for Godot. Requires a Godot 3.0-beta1 or newer
 - Simple logging with timing
 - Very verbose in context of ccoms/cvars registration and usage. If you made a mistake, console will tell you about it
 - Warm color scheme by default
+- Transparency for console by default.
+- Always on top of others elements (an issue of original console implementation).
 - Example #1: Unittest-like file with variety amount of examples of how to use console and how to _not_ use (see ConsoleUnitTest.gd).
 - Example #2: PerfMon simple script as example of "clean usage"
 
