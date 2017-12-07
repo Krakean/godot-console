@@ -22,11 +22,11 @@ A Quake/CryEngine-style console for Godot. Requires a Godot 3.0-beta1 or newer
 
 ## Some background on my implementation
 
-Contains some parts of code from another one good enhanced implementation of original Calinou's console - https://github.com/DmitriySalnikov/godot-console
+Contains some parts of code from another one good enhanced implementation of original Calinou's console - https://github.com/DmitriySalnikov/godot-console  
 That one particulary support strict type checking to commands arguments.
 
-Mine and DmitriySalnikov's (in cooperation with QuentinCaffeino) implementations were started in the same time at Godot's telegram channel, after I started discussion about flaws of Calinou's original.
-Take a look at their implementation, if you want either strict type checking for commands arguments or you don't like surplus usage/error verbose or color scheme of my implementation.
+Mine and DmitriySalnikov's (in cooperation with QuentinCaffeino) implementations were started in the same time at Godot's telegram channel, after I started discussion about flaws of Calinou's original.  
+Take a look at their implementation, if you want either strict type checking for commands arguments or you don't like surplus usage/error verbose or color scheme of my implementation.  
 Despite the fact our implementations actually do the same thing, we do it very differently.
 
 ## License
